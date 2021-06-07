@@ -1,0 +1,733 @@
+2020-12-24T10:24:01+00:00 CRITICAL syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in D:\wamp64\www\DesignFoundry\wp-content\themes\edumall\tutor\loop\custom\category.php on line 17
+
+2020-12-24T19:05:42+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, null given, called in /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php on line 289 and defined in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php:1085
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(289): Elementor\TemplateLibrary\Source_Local->on_save_post(0, NULL)
+#1 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/coviknow/df.coviknow.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/coviknow/df.coviknow.com/wp-includes/post.php(4260): do_action('save_post', 0, NULL, false)
+#4 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2969): wp_insert_post(Array, true)
+#5 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2520): WP_Customize_Manager->save_changeset_pos in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php on line 1085
+
+2020-12-24T19:05:46+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, null given, called in /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php on line 289 and defined in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php:1085
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(289): Elementor\TemplateLibrary\Source_Local->on_save_post(0, NULL)
+#1 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/coviknow/df.coviknow.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/coviknow/df.coviknow.com/wp-includes/post.php(4260): do_action('save_post', 0, NULL, false)
+#4 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2969): wp_insert_post(Array, true)
+#5 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2520): WP_Customize_Manager->save_changeset_pos in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php on line 1085
+
+2020-12-24T19:06:47+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, null given, called in /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php on line 289 and defined in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php:1085
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(289): Elementor\TemplateLibrary\Source_Local->on_save_post(0, NULL)
+#1 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/coviknow/df.coviknow.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/coviknow/df.coviknow.com/wp-includes/post.php(4260): do_action('save_post', 0, NULL, false)
+#4 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2969): wp_insert_post(Array, true)
+#5 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2520): WP_Customize_Manager->save_changeset_pos in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php on line 1085
+
+2020-12-24T19:06:55+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, null given, called in /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php on line 289 and defined in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php:1085
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(289): Elementor\TemplateLibrary\Source_Local->on_save_post(0, NULL)
+#1 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/coviknow/df.coviknow.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/coviknow/df.coviknow.com/wp-includes/post.php(4260): do_action('save_post', 0, NULL, false)
+#4 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2969): wp_insert_post(Array, true)
+#5 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2520): WP_Customize_Manager->save_changeset_pos in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php on line 1085
+
+2020-12-24T19:07:06+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, null given, called in /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php on line 289 and defined in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php:1085
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(289): Elementor\TemplateLibrary\Source_Local->on_save_post(0, NULL)
+#1 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/coviknow/df.coviknow.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/coviknow/df.coviknow.com/wp-includes/post.php(4260): do_action('save_post', 0, NULL, false)
+#4 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2969): wp_insert_post(Array, true)
+#5 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2520): WP_Customize_Manager->save_changeset_pos in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php on line 1085
+
+2020-12-24T19:07:12+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, null given, called in /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php on line 289 and defined in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php:1085
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(289): Elementor\TemplateLibrary\Source_Local->on_save_post(0, NULL)
+#1 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/coviknow/df.coviknow.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/coviknow/df.coviknow.com/wp-includes/post.php(4260): do_action('save_post', 0, NULL, false)
+#4 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2969): wp_insert_post(Array, true)
+#5 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2520): WP_Customize_Manager->save_changeset_pos in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php on line 1085
+
+2020-12-24T19:07:20+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, null given, called in /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php on line 289 and defined in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php:1085
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(289): Elementor\TemplateLibrary\Source_Local->on_save_post(0, NULL)
+#1 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/coviknow/df.coviknow.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/coviknow/df.coviknow.com/wp-includes/post.php(4260): do_action('save_post', 0, NULL, false)
+#4 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2969): wp_insert_post(Array, true)
+#5 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2520): WP_Customize_Manager->save_changeset_pos in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php on line 1085
+
+2020-12-24T19:07:44+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, null given, called in /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php on line 289 and defined in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php:1085
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(289): Elementor\TemplateLibrary\Source_Local->on_save_post(0, NULL)
+#1 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/coviknow/df.coviknow.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/coviknow/df.coviknow.com/wp-includes/post.php(4260): do_action('save_post', 0, NULL, false)
+#4 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2969): wp_insert_post(Array, true)
+#5 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2520): WP_Customize_Manager->save_changeset_pos in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php on line 1085
+
+2020-12-24T19:07:56+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, null given, called in /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php on line 289 and defined in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php:1085
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(289): Elementor\TemplateLibrary\Source_Local->on_save_post(0, NULL)
+#1 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/coviknow/df.coviknow.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/coviknow/df.coviknow.com/wp-includes/post.php(4260): do_action('save_post', 0, NULL, false)
+#4 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2969): wp_insert_post(Array, true)
+#5 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2520): WP_Customize_Manager->save_changeset_pos in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php on line 1085
+
+2020-12-24T19:08:05+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, null given, called in /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php on line 289 and defined in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php:1085
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(289): Elementor\TemplateLibrary\Source_Local->on_save_post(0, NULL)
+#1 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/coviknow/df.coviknow.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/coviknow/df.coviknow.com/wp-includes/post.php(4260): do_action('save_post', 0, NULL, false)
+#4 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2969): wp_insert_post(Array, true)
+#5 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2520): WP_Customize_Manager->save_changeset_pos in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php on line 1085
+
+2020-12-24T19:08:27+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, null given, called in /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php on line 289 and defined in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php:1085
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(289): Elementor\TemplateLibrary\Source_Local->on_save_post(0, NULL)
+#1 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/coviknow/df.coviknow.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/coviknow/df.coviknow.com/wp-includes/post.php(4260): do_action('save_post', 0, NULL, false)
+#4 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2969): wp_insert_post(Array, true)
+#5 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2520): WP_Customize_Manager->save_changeset_pos in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php on line 1085
+
+2020-12-24T19:08:33+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, null given, called in /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php on line 289 and defined in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php:1085
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(289): Elementor\TemplateLibrary\Source_Local->on_save_post(0, NULL)
+#1 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/coviknow/df.coviknow.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/coviknow/df.coviknow.com/wp-includes/post.php(4260): do_action('save_post', 0, NULL, false)
+#4 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2969): wp_insert_post(Array, true)
+#5 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2520): WP_Customize_Manager->save_changeset_pos in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php on line 1085
+
+2020-12-24T19:09:05+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, null given, called in /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php on line 289 and defined in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php:1085
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(289): Elementor\TemplateLibrary\Source_Local->on_save_post(0, NULL)
+#1 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/coviknow/df.coviknow.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/coviknow/df.coviknow.com/wp-includes/post.php(4260): do_action('save_post', 0, NULL, false)
+#4 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2969): wp_insert_post(Array, true)
+#5 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2520): WP_Customize_Manager->save_changeset_pos in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php on line 1085
+
+2020-12-24T19:09:39+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, null given, called in /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php on line 289 and defined in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php:1085
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(289): Elementor\TemplateLibrary\Source_Local->on_save_post(0, NULL)
+#1 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/coviknow/df.coviknow.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/coviknow/df.coviknow.com/wp-includes/post.php(4260): do_action('save_post', 0, NULL, false)
+#4 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2969): wp_insert_post(Array, true)
+#5 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2520): WP_Customize_Manager->save_changeset_pos in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php on line 1085
+
+2020-12-24T19:10:06+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, null given, called in /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php on line 289 and defined in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php:1085
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(289): Elementor\TemplateLibrary\Source_Local->on_save_post(0, NULL)
+#1 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/coviknow/df.coviknow.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/coviknow/df.coviknow.com/wp-includes/post.php(4260): do_action('save_post', 0, NULL, false)
+#4 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2969): wp_insert_post(Array, true)
+#5 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2520): WP_Customize_Manager->save_changeset_pos in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php on line 1085
+
+2020-12-24T19:10:13+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, null given, called in /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php on line 289 and defined in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php:1085
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(289): Elementor\TemplateLibrary\Source_Local->on_save_post(0, NULL)
+#1 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/coviknow/df.coviknow.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/coviknow/df.coviknow.com/wp-includes/post.php(4260): do_action('save_post', 0, NULL, false)
+#4 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2969): wp_insert_post(Array, true)
+#5 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2520): WP_Customize_Manager->save_changeset_pos in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php on line 1085
+
+2020-12-24T19:11:12+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, null given, called in /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php on line 289 and defined in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php:1085
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(289): Elementor\TemplateLibrary\Source_Local->on_save_post(0, NULL)
+#1 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/coviknow/df.coviknow.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/coviknow/df.coviknow.com/wp-includes/post.php(4260): do_action('save_post', 0, NULL, false)
+#4 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2969): wp_insert_post(Array, true)
+#5 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2520): WP_Customize_Manager->save_changeset_pos in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php on line 1085
+
+2020-12-24T19:11:35+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, null given, called in /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php on line 289 and defined in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php:1085
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(289): Elementor\TemplateLibrary\Source_Local->on_save_post(0, NULL)
+#1 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/coviknow/df.coviknow.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/coviknow/df.coviknow.com/wp-includes/post.php(4260): do_action('save_post', 0, NULL, false)
+#4 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2969): wp_insert_post(Array, true)
+#5 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2520): WP_Customize_Manager->save_changeset_pos in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php on line 1085
+
+2020-12-24T19:12:36+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, null given, called in /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php on line 289 and defined in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php:1085
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(289): Elementor\TemplateLibrary\Source_Local->on_save_post(0, NULL)
+#1 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/coviknow/df.coviknow.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/coviknow/df.coviknow.com/wp-includes/post.php(4260): do_action('save_post', 0, NULL, false)
+#4 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2969): wp_insert_post(Array, true)
+#5 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2520): WP_Customize_Manager->save_changeset_pos in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php on line 1085
+
+2020-12-24T19:14:07+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, null given, called in /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php on line 289 and defined in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php:1085
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(289): Elementor\TemplateLibrary\Source_Local->on_save_post(0, NULL)
+#1 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/coviknow/df.coviknow.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/coviknow/df.coviknow.com/wp-includes/post.php(4260): do_action('save_post', 0, NULL, false)
+#4 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2969): wp_insert_post(Array, true)
+#5 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2520): WP_Customize_Manager->save_changeset_pos in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php on line 1085
+
+2020-12-24T19:14:35+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, null given, called in /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php on line 289 and defined in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php:1085
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(289): Elementor\TemplateLibrary\Source_Local->on_save_post(0, NULL)
+#1 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/coviknow/df.coviknow.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/coviknow/df.coviknow.com/wp-includes/post.php(4260): do_action('save_post', 0, NULL, false)
+#4 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2969): wp_insert_post(Array, true)
+#5 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2520): WP_Customize_Manager->save_changeset_pos in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php on line 1085
+
+2020-12-24T19:15:36+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, null given, called in /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php on line 289 and defined in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php:1085
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(289): Elementor\TemplateLibrary\Source_Local->on_save_post(0, NULL)
+#1 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/coviknow/df.coviknow.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/coviknow/df.coviknow.com/wp-includes/post.php(4260): do_action('save_post', 0, NULL, false)
+#4 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2969): wp_insert_post(Array, true)
+#5 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2520): WP_Customize_Manager->save_changeset_pos in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php on line 1085
+
+2020-12-24T19:16:24+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, null given, called in /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php on line 289 and defined in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php:1085
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(289): Elementor\TemplateLibrary\Source_Local->on_save_post(0, NULL)
+#1 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/coviknow/df.coviknow.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/coviknow/df.coviknow.com/wp-includes/post.php(4260): do_action('save_post', 0, NULL, false)
+#4 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2969): wp_insert_post(Array, true)
+#5 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2520): WP_Customize_Manager->save_changeset_pos in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php on line 1085
+
+2020-12-24T19:16:37+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, null given, called in /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php on line 289 and defined in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php:1085
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(289): Elementor\TemplateLibrary\Source_Local->on_save_post(0, NULL)
+#1 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/coviknow/df.coviknow.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/coviknow/df.coviknow.com/wp-includes/post.php(4260): do_action('save_post', 0, NULL, false)
+#4 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2969): wp_insert_post(Array, true)
+#5 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2520): WP_Customize_Manager->save_changeset_pos in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php on line 1085
+
+2020-12-24T19:17:21+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, null given, called in /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php on line 289 and defined in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php:1085
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(289): Elementor\TemplateLibrary\Source_Local->on_save_post(0, NULL)
+#1 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/coviknow/df.coviknow.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/coviknow/df.coviknow.com/wp-includes/post.php(4260): do_action('save_post', 0, NULL, false)
+#4 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2969): wp_insert_post(Array, true)
+#5 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2520): WP_Customize_Manager->save_changeset_pos in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php on line 1085
+
+2020-12-24T19:17:38+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, null given, called in /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php on line 289 and defined in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php:1085
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(289): Elementor\TemplateLibrary\Source_Local->on_save_post(0, NULL)
+#1 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/coviknow/df.coviknow.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/coviknow/df.coviknow.com/wp-includes/post.php(4260): do_action('save_post', 0, NULL, false)
+#4 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2969): wp_insert_post(Array, true)
+#5 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2520): WP_Customize_Manager->save_changeset_pos in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php on line 1085
+
+2020-12-24T19:17:54+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, null given, called in /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php on line 289 and defined in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php:1085
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(289): Elementor\TemplateLibrary\Source_Local->on_save_post(0, NULL)
+#1 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/coviknow/df.coviknow.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/coviknow/df.coviknow.com/wp-includes/post.php(4260): do_action('save_post', 0, NULL, false)
+#4 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2969): wp_insert_post(Array, true)
+#5 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2520): WP_Customize_Manager->save_changeset_pos in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php on line 1085
+
+2020-12-24T19:18:15+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, null given, called in /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php on line 289 and defined in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php:1085
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(289): Elementor\TemplateLibrary\Source_Local->on_save_post(0, NULL)
+#1 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/coviknow/df.coviknow.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/coviknow/df.coviknow.com/wp-includes/post.php(4260): do_action('save_post', 0, NULL, false)
+#4 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2969): wp_insert_post(Array, true)
+#5 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2520): WP_Customize_Manager->save_changeset_pos in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php on line 1085
+
+2020-12-24T19:18:22+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, null given, called in /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php on line 289 and defined in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php:1085
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(289): Elementor\TemplateLibrary\Source_Local->on_save_post(0, NULL)
+#1 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/coviknow/df.coviknow.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/coviknow/df.coviknow.com/wp-includes/post.php(4260): do_action('save_post', 0, NULL, false)
+#4 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2969): wp_insert_post(Array, true)
+#5 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2520): WP_Customize_Manager->save_changeset_pos in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php on line 1085
+
+2020-12-24T19:18:39+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, null given, called in /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php on line 289 and defined in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php:1085
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(289): Elementor\TemplateLibrary\Source_Local->on_save_post(0, NULL)
+#1 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/coviknow/df.coviknow.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/coviknow/df.coviknow.com/wp-includes/post.php(4260): do_action('save_post', 0, NULL, false)
+#4 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2969): wp_insert_post(Array, true)
+#5 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2520): WP_Customize_Manager->save_changeset_pos in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php on line 1085
+
+2020-12-24T19:18:54+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, null given, called in /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php on line 289 and defined in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php:1085
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(289): Elementor\TemplateLibrary\Source_Local->on_save_post(0, NULL)
+#1 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/coviknow/df.coviknow.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/coviknow/df.coviknow.com/wp-includes/post.php(4260): do_action('save_post', 0, NULL, false)
+#4 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2969): wp_insert_post(Array, true)
+#5 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2520): WP_Customize_Manager->save_changeset_pos in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php on line 1085
+
+2020-12-24T19:19:39+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, null given, called in /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php on line 289 and defined in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php:1085
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(289): Elementor\TemplateLibrary\Source_Local->on_save_post(0, NULL)
+#1 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/coviknow/df.coviknow.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/coviknow/df.coviknow.com/wp-includes/post.php(4260): do_action('save_post', 0, NULL, false)
+#4 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2969): wp_insert_post(Array, true)
+#5 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2520): WP_Customize_Manager->save_changeset_pos in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php on line 1085
+
+2020-12-24T19:19:43+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, null given, called in /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php on line 289 and defined in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php:1085
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(289): Elementor\TemplateLibrary\Source_Local->on_save_post(0, NULL)
+#1 /home/coviknow/df.coviknow.com/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/coviknow/df.coviknow.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/coviknow/df.coviknow.com/wp-includes/post.php(4260): do_action('save_post', 0, NULL, false)
+#4 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2969): wp_insert_post(Array, true)
+#5 /home/coviknow/df.coviknow.com/wp-includes/class-wp-customize-manager.php(2520): WP_Customize_Manager->save_changeset_pos in /home/coviknow/df.coviknow.com/wp-content/plugins/elementor/includes/template-library/sources/local.php on line 1085
+
+2020-12-24T19:20:50+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Database error. in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php(36): ActionScheduler_A in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2020-12-24T19:20:50+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php( in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2020-12-24T19:20:59+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php( in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2020-12-24T19:21:00+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php( in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2020-12-24T19:21:03+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php( in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2020-12-24T19:21:13+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php( in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2020-12-24T19:21:37+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php( in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2020-12-24T19:21:41+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php( in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2020-12-24T19:21:44+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php( in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2020-12-24T19:21:59+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php( in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2020-12-24T19:22:00+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php( in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2020-12-24T19:22:02+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php( in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2020-12-24T19:22:06+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php( in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2020-12-24T19:22:20+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php( in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2020-12-24T19:22:42+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php( in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2020-12-24T19:22:45+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php( in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2020-12-24T19:23:03+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php( in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2020-12-24T19:23:04+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php( in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2020-12-24T19:23:05+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php( in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2020-12-24T19:23:08+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php( in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2020-12-24T19:23:09+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php( in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2020-12-24T19:23:21+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php( in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2020-12-24T19:23:26+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php( in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2020-12-24T19:23:37+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php( in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2020-12-24T19:23:43+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php( in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2020-12-24T19:23:54+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php( in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2020-12-24T19:23:55+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php( in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2020-12-24T19:23:56+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php( in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2020-12-24T19:23:56+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php( in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2020-12-24T19:24:02+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php( in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2020-12-24T19:24:09+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php( in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2020-12-24T19:24:10+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php( in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2020-12-24T19:24:11+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php( in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2020-12-24T19:24:15+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php( in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2020-12-24T19:24:16+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php( in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2020-12-24T19:24:22+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php( in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2020-12-24T19:24:25+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php( in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2020-12-24T19:24:27+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php( in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2020-12-24T19:24:55+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php( in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2020-12-24T19:25:16+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php( in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2020-12-24T19:25:17+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php( in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2020-12-24T19:25:18+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php( in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2020-12-24T19:25:19+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php( in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2020-12-24T19:25:19+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php( in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2020-12-24T19:25:33+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php( in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2020-12-24T19:25:38+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php( in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2020-12-24T19:25:43+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php( in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2020-12-24T19:25:45+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php( in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2020-12-24T19:26:16+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php( in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2020-12-24T19:26:19+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php( in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2020-12-24T19:26:20+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php( in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2020-12-24T19:26:21+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php( in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2020-12-24T19:26:22+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php( in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2020-12-24T19:26:32+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php( in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2020-12-24T19:26:34+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php( in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2020-12-24T19:26:37+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php( in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2020-12-24T19:26:54+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php( in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2020-12-24T19:27:17+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php( in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2020-12-24T19:27:20+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php( in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2020-12-24T19:27:21+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php( in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2020-12-24T19:27:23+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php( in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2020-12-24T19:27:33+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php( in /home/coviknow/df.coviknow.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+

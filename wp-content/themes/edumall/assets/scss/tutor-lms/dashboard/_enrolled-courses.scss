@@ -1,0 +1,19 @@
+@include media-breakpoint-down(sm) {
+	.tutor-mycourse-thumbnail {
+		flex: 0 0 150px;
+	}
+
+	.tutor-mycourse-content {
+		padding: 0 0 0 20px;
+	}
+}
+
+@include media-breakpoint-down(xs) {
+	.tutor-mycourse-thumbnail {
+		margin: 0 0 20px;
+	}
+
+	.tutor-mycourse-content {
+		padding: 0;
+	}
+}

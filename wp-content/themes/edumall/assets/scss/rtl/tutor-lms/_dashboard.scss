@@ -1,0 +1,43 @@
+.rtl {
+	.tutor-dashboard-header-avatar {
+		margin: 0 0 0 24px;
+	}
+
+	.branding-logo-wrap {
+		a {
+			float: right;
+		}
+	}
+
+	&.dashboard-page.dashboard-nav-fixed {
+		margin-left: 0;
+		margin-right: 320px;
+	}
+
+	.tutor-dashboard-permalinks {
+		li {
+			a {
+				&:before {
+					margin: 0 0 0 6px;
+				}
+			}
+		}
+	}
+
+	.tutor-dashboard-left-menu {
+		left: auto;
+		right: 0;
+	}
+
+	.dashboard-info-card-box {
+		padding: 38px 29px 38px 20px;
+	}
+}
+
+@include media-breakpoint-up(xl) {
+	.rtl {
+		.dashboard-info-card-icon {
+			margin: 0 0 0 48px;
+		}
+	}
+}

@@ -1,0 +1,8 @@
+2020-12-12T21:17:18+00:00 CRITICAL Uncaught Error: Class 'ZipArchive' not found in /home/o3wm1gu7yp0p/public_html/wp-content/plugins/elementor-pro/modules/assets-manager/asset-types/icons/custom-icons.php:210
+Stack trace:
+#0 /home/o3wm1gu7yp0p/public_html/wp-content/plugins/elementor-pro/modules/assets-manager/asset-types/icons/custom-icons.php(256): ElementorPro\Modules\AssetsManager\AssetTypes\Icons\Custom_Icons->extract_zip('/home/o3wm1gu7y...', '/home/o3wm1gu7y...')
+#1 /home/o3wm1gu7yp0p/public_html/wp-content/plugins/elementor-pro/modules/assets-manager/asset-types/icons/custom-icons.php(284): ElementorPro\Modules\AssetsManager\AssetTypes\Icons\Custom_Icons->upload_and_extract_zip()
+#2 [internal function]: ElementorPro\Modules\AssetsManager\AssetTypes\Icons\Custom_Icons->custom_icons_upload_handler(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#3 /home/o3wm1gu7yp0p/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+# in /home/o3wm1gu7yp0p/public_html/wp-content/plugins/elementor-pro/modules/assets-manager/asset-types/icons/custom-icons.php on line 210
+

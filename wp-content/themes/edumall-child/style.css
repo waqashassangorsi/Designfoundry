@@ -1,0 +1,71 @@
+/*
+ Theme Name:   EduMall Child Theme
+ Theme URI:    https://www.designfoundry.org/
+ Description:  A sysbii tech customized theme
+ Author:       Sysbii Tech
+ Author URI:   https://www.aouniimalik.ml
+ Template:     edumall
+ Version:      1.0.0
+*/
+
+@font-face {
+    font-family: 'GT-Super-Trial-Display';
+    src: url('fonts/GT-Super-Display-Trial-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#page-title-bar {
+    display: none;
+}
+
+.bootcamp-ul-li {
+    padding-left: 0px;
+}
+
+.bootcamp-ul-li li {
+    display: inline-block;
+}
+
+.bootcamp-par {
+    height: 14px !important;
+}
+
+.bootcamp-filled {
+    height: 14px !important;
+    background: #ed9700 !important;
+    border-radius: 30px;
+    width: var(--tutor-progress-left)
+}
+
+.a-btn {
+    background: #6558FE;
+    width: 100%;
+    color: white;
+    padding: 12px 28px;
+    border-radius: 6px;
+}
+
+.tutor-single-page-top-bar {
+    background: #37489E !important;
+}
+
+.tutor-tabs-btn-group a.active i,
+.tutor-topics-in-single-lesson.tutor-topic-active .tutor-topics-title h3,
+.btn-toggle-lesson-sidebar,
+.tutor-topics-in-single-lesson .tutor-topics-title button {
+    color: #F2634F !important;
+}
+
+.tutor-lessons-under-topic .tutor-single-lesson-items.active a {
+    background: #F2634F !important;
+    border-color: #F2634F !important;
+}
+
+.tutor-single-lesson-wrap {
+    padding-top: 16px;
+}
+
+.tutor-lesson-sidebar-wrap {
+    z-index: 3 !important;
+}

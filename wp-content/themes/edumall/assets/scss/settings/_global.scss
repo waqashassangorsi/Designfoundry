@@ -1,0 +1,33 @@
+/**
+ * Dynamic Variables
+ */
+$primary-color: var(--edumall-color-primary);
+$secondary-color: var(--edumall-color-secondary);
+$third-color: var(--edumall-color-third);
+$text-color: var(--edumall-color-text);
+$text-lighten-color: var(--edumall-color-text-lighten);
+$heading-color: var(--edumall-color-heading);
+$link-color: var(--edumall-color-link);
+$link-hover-color: var(--edumall-color-link-hover);
+$body-font-family: var(--edumall-typography-body-font-family);
+$body-font-weight: var(--edumall-typography-body-font-weight);
+$body-font-size: var(--edumall-typography-body-font-size);
+$body-line-height: var(--edumall-typography-body-line-height);
+$body-letter-spacing: var(--edumall-typography-body-letter-spacing);
+$heading-font-family: var(--edumall-typography-headings-font-family);
+$heading-font-weight: var(--edumall-typography-headings-font-weight);
+$heading-line-height: var(--edumall-typography-headings-line-height);
+$heading-letter-spacing: var(--edumall-typography-headings-letter-spacing);
+
+$success-color: #6cbd7e;
+$error-color: #d9534f;
+$warning-color: #ff9800;
+$info-color: #2196f3;
+
+$star-full-color: #f7c04d;
+
+$form-input-height: 52px;
+$form-input-radius: 5px;
+$form-input-font-size: 14px;
+
+$sub-menu-border-color: #ededed;
